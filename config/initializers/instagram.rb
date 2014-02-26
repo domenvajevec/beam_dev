@@ -5,4 +5,4 @@ Instagram.configure do |config|
   config.client_secret = ENV['INSTAGRAM_CLIENT_SECRET']
 end
 
-CALLBACK_URL = "http://lit-earth-1048.herokuapp.com/searches/"
+CALLBACK_URL = "http://lit-earth-1048.herokuapp.com/session/callback"
