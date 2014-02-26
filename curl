@@ -1,0 +1,15 @@
+curl -F 'client_id=681ce687a0af4694826889d1daa47ce7' \
+     -F 'client_secret=47b7ff47649e4b248f9dd10d7bd0b000' \
+     -F 'object=user' \
+     -F 'aspect=media' \
+     -F 'verify_token=myVerifyToken' \
+     -F 'callback_url=http://7a0fa841.ngrok.com' \
+     https://api.instagram.com/v1/subscriptions/
+
+
+     {client-id: '681ce687a0af4694826889d1daa47ce7'
+     client_secret: '47b7ff47649e4b248f9dd10d7bd0b000'
+     object: 'user'
+     aspect: 'media'
+     verify_token: 'myVerifyToken'
+     callback_url: 'http://7a0fa841.ngrok.com'}
