@@ -1,5 +1,5 @@
 require 'instagram'
-require 'httparty'
+
 
 
 class SearchesController < ApplicationController
