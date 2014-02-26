@@ -6,8 +6,9 @@ gem 'instagram'
 group :development do
 	gem 'pry'
 	gem 'rspec'
+  gem 'rails_12factor'
 end
-gem 'httparty'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
