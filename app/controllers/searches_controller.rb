@@ -13,7 +13,7 @@ class SearchesController < ApplicationController
   def subscribe
     client = Instagram.client(:access_token => session[:access_token])
     #@user = client.user
-    @subscription = client.create_subscription("tag","http://lit-earth-1048.herokuapp.com/searches/subscribe", "media", {object_id: "#dog"} )
+    @subscription = client.create_subscription("tag","http://lit-earth-1048.herokuapp.com/", "media", {object_id: "#dog"} )
     #@test_subs = client.subscriptions
     #redirect_to @instagram_results
   end
