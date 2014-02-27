@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Instagram
 gem 'instagram'
+gem 'unicorn'
 
 group :development do
 	gem 'pry'
