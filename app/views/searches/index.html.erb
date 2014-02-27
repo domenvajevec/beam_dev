@@ -10,4 +10,4 @@
 <%= link_to (session[:access_token] ? 'You are logged in' : 'Login with Instagram'), controller: 'sessions', action: 'connect' %>
 
 <%= link_to "InstragramSub", subscribe_path %>
-<!-- NEED TO CLEAN THIS UP -->
+<%= @test_subs %>
